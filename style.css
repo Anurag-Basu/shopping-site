@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+#summer {
+  background-image: url(https://images.unsplash.com/photo-1578592311070-4fb73aec2d22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvcHBpbmclMjBtYWxsfGVufDB8MHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  height: 70vh;
+  background-repeat: none;
+  background-size: cover;
+}
+
+#summer #nav-head {
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+#summer #nav-head button {
+  color: white;
+  padding: 3px 15px;
+  border: 2px solid white;
+}
+
+#summer #nav-head .nav-bar {
+  margin-left: 6rem;
+  text-align: center;
+  background-color: orange;
+}
+
+#summer #nav-head .nav-bar li a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#summer #summer-text {
+  width: inherit;
+  height: 63vh;
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#summer #summer-text .quote-logo {
+  padding-left: 15px;
+  border: 5px solid orangered;
+  text-align: center;
+}
+
+#summer #summer-text .quote-logo h1 {
+  font-size: 4rem;
+}
+
+#summer #summer-text .saving {
+  z-index: 10;
+}
+
+#summer #summer-text .saving span {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  font-size: 2.5rem;
+  border: 3px solid yellow;
+}
+
+#tshirt-card {
+  width: inherit;
+  margin-top: -3px;
+}
+
+#tshirt-card .card {
+  text-align: center;
+  width: 50%;
+}
+
+#tshirt-card .card img {
+  width: 40%;
+}
+
+.third-part {
+  height: 500px;
+  width: inherit;
+}
+
+.third-part .first-child {
+  width: 35%;
+  height: 500px;
+  background-color: red;
+  background-image: url("./B612_20200205_204800_318.jpg");
+  background-size: cover;
+}
+
+.third-part .second-child {
+  position: relative;
+  height: 500px;
+  width: 65%;
+  background-color: cyan;
+  background-image: url("./eye.jpg");
+  background-size: cover;
+}
+
+.third-part .second-child .content {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.third-part .second-child .content h1 {
+  color: white;
+}
+
+.third-part .second-child .content button {
+  color: white;
+  padding: 3px 15px;
+  border: 2px solid white;
+}
+
+.fourth-part {
+  color: white;
+  height: 500px;
+  width: inherit;
+  text-align: right;
+}
+
+.fourth-part .first-child {
+  position: relative;
+  height: 500px;
+  width: 65%;
+  background-color: cyan;
+  background-image: url("./eye.jpg");
+  background-size: cover;
+}
+
+.fourth-part .first-child .content {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.fourth-part .first-child .content h1 {
+  color: white;
+}
+
+.fourth-part .first-child .content button {
+  color: white;
+  padding: 3px 15px;
+  border: 2px solid white;
+}
+
+.fourth-part .second-child {
+  position: relative;
+  width: 35%;
+  height: 500px;
+  background-color: red;
+  background-image: url("./B612_20200205_204800_318.jpg");
+  background-size: cover;
+}
+
+.fourth-part .second-child .content {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.fourth-part .second-child .content .right-row {
+  margin-top: 1rem;
+}
+
+#popular-deals {
+  text-transform: capitalize;
+}
+
+#popular-deals h2 {
+  text-align: center;
+}
+
+#popular-deals #deal-container .items {
+  margin: 1.5rem;
+}
+
+#popular-deals #deal-container .items img {
+  height: 250px;
+  width: 200px;
+}
+
+#popular-deals #deal-container .items a {
+  color: black;
+  font-weight: bold;
+}
+
+#category {
+  width: inherit;
+}
+
+#category .items {
+  margin: 2.5rem;
+}
+
+#category .items img {
+  width: 325px;
+  height: 165px;
+}
+
+#category .items button {
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 8px 30px;
+}
+
+#cards {
+  color: white;
+}
+
+#cards #delivery {
+  margin-right: 2rem;
+  position: relative;
+  background-color: #48a3bf;
+  width: 400px;
+  height: 230px;
+  text-align: left;
+}
+
+#cards #delivery .content {
+  padding-left: 1rem;
+}
+
+#cards #delivery .content .small {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#cards #buy-now {
+  margin-left: 5rem;
+  width: 400px;
+  height: 230px;
+  position: relative;
+  background-color: #db5252;
+}
+
+#cards #buy-now .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 2rem;
+}
+
+#mail-us {
+  background-color: midnightblue;
+  height: 60vh;
+  width: inherit;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHNob3BwaW5nJTIwbWFsbHxlbnwwfDB8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  color: white;
+}
+
+#mail-us input {
+  color: white;
+  width: 350px;
+  padding: 2px;
+  padding-left: 1rem;
+  border: 2px solid white;
+  margin-right: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#mail-us button {
+  background-color: #48a3bf;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+#social-icons {
+  color: white;
+  background-color: #392d3b;
+  height: 35vh;
+  width: inherit;
+}
+
+#social-icons .icons {
+  margin-bottom: .5rem;
+}
+
+#social-icons .icons i {
+  margin-left: 7px;
+  font-size: 25px;
+}
+
+#social-icons h3 {
+  text-transform: none;
+}
+/*# sourceMappingURL=style.css.map */
